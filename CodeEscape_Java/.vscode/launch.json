@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run CodeEscape",
+            "request": "launch",
+            "mainClass": "CodeEscape",
+            "projectName": "CodeEscape_Java"
+        },
+        {
+            "type": "java",
+            "name": "Run GameVerifier (QA Tests)",
+            "request": "launch",
+            "mainClass": "GameVerifier",
+            "projectName": "CodeEscape_Java"
+        },
+        {
+            "type": "java",
+            "name": "Run EngineVerifier (Integration Tests)",
+            "request": "launch",
+            "mainClass": "EngineVerifier",
+            "projectName": "CodeEscape_Java"
+        }
+    ]
+}
